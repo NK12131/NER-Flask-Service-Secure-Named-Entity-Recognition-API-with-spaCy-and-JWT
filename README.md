@@ -5,38 +5,6 @@ The NER Flask Service is a comprehensive RESTful API system designed to provide 
 Find API docs in 
 
 ``API_docs.md``
-
-## Getting Started
-
-You should have python 3.11 and above. Below steps are for macOS/linux
-To get started with this project, follow the steps below:
-
-After clonning the repo using this link 
-
-``https://github.com/parthjain99/NER_FLASK_SERVICE.git``
-
-1. Run the `init_setup.sh` script using bash:
-
-   ```
-   bash init_setup.sh
-   ```
-2. Activate the virtual environment:
-
-   ```
-   source venv/bin/activate
-   ```
-3. Start the server:
-
-   ```
-   python3 -m src.app
-   ```
-4. Test the application:
-   Run this commad after running 3 in a seperate terminal window
-
-   ```
-   python3 -m pytest src
-   ```
-
 ## Core Functionalities and Technologies
 
 - Flask Framework: Serves as the backbone for creating RESTful API endpoints, managing requests, and routing.
